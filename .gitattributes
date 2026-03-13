@@ -1,0 +1,21 @@
+ios/** linguist-vendored
+
+android/** linguist-vendored
+
+web/** linguist-vendored
+
+windows/** linguist-vendored
+
+macos/** linguist-vendored
+
+linux/** linguist-vendored
+
+build/** linguist-vendored
+
+
+
+# Explicitly ignore HTML and JSON files for language stats
+
+*.html linguist-detectable=false
+
+*.json linguist-detectable=false
